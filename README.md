@@ -1,6 +1,6 @@
 # User-Localization-via-Self-Supervised-Learning
 
-# User Localization via Self-Supervised Learning
+
 
 This repository contains the code and documentation for a user localization project that leverages self-supervised learning to predict the position of a user based on channel state information (CSI). The project addresses a key challenge in wireless communications—reducing the need for large amounts of labeled data by first learning useful representations from a large unlabelled dataset and then fine-tuning on a smaller labeled dataset.
 
