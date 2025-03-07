@@ -31,17 +31,17 @@ The project consists of two main stages:
 
 ## Data Details
 
-- **Labelled Data:**  
+- **Labelled Data:**   (https://drive.google.com/file/d/1atPChIUtYv8oiYwPFBZoJ8Ha0pCLFLxF/view)
   - Contains CSI data with ground truth positions.
   - Each file in `labelled_data.zip` includes:
     - H_Re, H_Im, SNR, and Pos (ground truth positions; shape: [number of samples, 3] with order [x, y, z])
   - Total labelled samples: 4,096
 
-- **Unlabelled Data:**  
+- **Unlabelled Data:**  (https://drive.google.com/file/d/18iEpL4Q6ybtPPwP2rYcZ3ocdfmMbyHp2/view)
   - Contains CSI data (H_Re, H_Im, SNR) without positions.
   - Total unlabelled samples: 36,192
 
-- **Test Data:**  
+- **Test Data:**  (https://drive.google.com/file/d/1gYQ_ZbX36cOiiwpdqQ94ON7Mt8DlqvEr/view)
   - Contains CSI data similar to the unlabelled set.
   - Total test samples: 883
   - **Note:** Part of the map (two streets) is intentionally omitted from the labelled dataset but is present in the test set.
